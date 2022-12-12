@@ -1,0 +1,38 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  gap: 30px;
+}
+div {
+  background-color: brown;
+  height: 100px;
+  width: 200px;
+  align-items: center;
+  justify-items: center;
+  gap: 20px;
+  display: flex;
+}
+.a {
+  background-color: red;
+  height: 200px;
+  width: 300px;
+}
+.b {
+  background-color: aqua;
+  height: 200px;
+  width: 300px;
+}
+.c {
+  background-color: rgb(255, 0, 191);
+  height: 50px;
+  width: 30px;
+  align-items: center;
+  margin: 60px 70px;
+}
+.d {
+  background-color: blue;
+  height: 50px;
+  width: 30px;
+}

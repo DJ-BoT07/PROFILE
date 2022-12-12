@@ -1,0 +1,122 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  width: 100vw;
+  height: 100vh;
+  background-image: url(./background.png);
+  background-size: cover;
+  
+}
+.a {
+ 
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+ 
+  margin-top: 200px;
+  padding: auto;
+}
+
+.a img{
+    width: 100%;
+    height: 150px;
+    border-radius: 100%;
+    
+}
+.b {
+  color: rgba(255, 255, 255, 0.61);
+  font-family: "Inter";
+  font-style: normal;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  margin: -20px;
+  padding: 20px;
+ 
+}
+.c {
+  box-shadow: 0px 8px 4px rgba(52, 57, 57, 0.3);
+  border-radius: 27px;
+  height: 200px;
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  flex-direction: column;
+  text-size-adjust: 50px;
+  font-family: "Inter";
+  padding: 0spx;
+  margin-bottom: 150px;
+}
+.d {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 7px 82px 10px 7px;
+  gap: 48px;
+
+  width: 210px;
+  height: 40px;
+
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0px 8px 4px rgba(52, 57, 57, 0.3);
+  border-radius: 27px;
+  font-size: small;
+  margin: 2px;
+  text-align: center;
+  position: relative;
+}
+h1 {
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  padding: -20px;
+}
+
+.link1 {
+  width: 40px;
+  height: 40px;
+  margin-right: 20px;
+  position: absolute;
+  left: 2px;
+  top: 0.5px;
+}
+.instagram1 {
+  width: 40px;
+  height: 40spx;
+  position: absolute;
+  left: 2px;
+}
+.contact1 {
+  width: 40px;
+  height: 40px;
+
+  position: absolute;
+  left: 0.5px;
+  top: 2px;
+}
+.github {
+  width: 40px;
+  height: 40px;
+  margin-right: 45px;
+  position: absolute;
+  left: 2px;
+}
+a {
+  font-size: medium;
+  align-items: center;
+  justify-content: center;
+  right: 100px;
+  position: absolute;
+  text-decoration: dashed;
+  color: azure;
+  font-family: 'Inter';
+}
